@@ -1,8 +1,6 @@
 {
-    "module" : {
-                "name": "Elementary Differential Equations",
-                "year": 1,
-                "requirements": ["Algebra I", "Calculus", "Algebra II"],
-                "credits": 10
-    }
+    "name": "Elementary Differential Equations",
+    "year": 1,
+    "requirements": ["Algebra I", "Calculus", "Algebra II"],
+    "credits": 10
 }

@@ -1,8 +1,6 @@
 {
-    "module" : {
-                "name": "Elementary Number Theory I",
-                "year": 1,
-                "requirements": ["None"],
-                "credits": 10
-    }
+    "name": "Elementary Number Theory I",
+    "year": 1,
+    "requirements": ["None"],
+    "credits": 10
 }

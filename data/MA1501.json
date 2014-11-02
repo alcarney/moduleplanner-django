@@ -1,8 +1,6 @@
 {
-    "module" : {
-                "name": "Statistical Inference",
-                "year": 1,
-                "requirements": ["Introduction to Probability Theory"],
-                "credits": 10
-    }
+    "name": "Statistical Inference",
+    "year": 1,
+    "requirements": ["Introduction to Probability Theory"],
+    "credits": 10
 }

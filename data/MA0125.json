@@ -1,8 +1,6 @@
 {
-    "module" : {
-                "name": "Algebra II",
-                "year": 1,
-                "requirements": ["Algebra I"],
-                "credits": 10
-    }
+    "name": "Algebra II",
+    "year": 1,
+    "requirements": ["Algebra I"],
+    "credits": 10
 }

@@ -1,8 +1,6 @@
 {
-    "module" : {
-                "name": "Computing for Mathematics",
-                "year": 1,
-                "requirements": ["None"],
-                "credits": 20
-    }
+    "name": "Computing for Mathematics",
+    "year": 1,
+    "requirements": ["None"],
+    "credits": 20
 }

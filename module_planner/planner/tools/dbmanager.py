@@ -22,14 +22,14 @@ class ModuleDB():
             # Set a flag that says we have a connection
             self.hasConnection = True
             print "Connection made"
-            #print self.conn.database_names()
+            print self.conn.database_names()
 
             # Get access to the db
-            self.db = self.conn.test
-            #print self.db.collection_names()
+            self.db = self.conn['plannerDB']
+            print self.db.collection_names()
 
             # Get access to the modules collection
-            self.modules = self.db.modules
+            self.modules = self.db['modules']
 
         except pymongo.errors.ConnectionFailure, e:
             print "Could not connect to the database"
@@ -46,8 +46,12 @@ class ModuleDB():
     def getModule(self, query):
 
         # Search the modules collection for the record given by query
-        #return list(self.modules.find_one(query))
-        return list(self.modules.find(query))[0]
+        results = list(self.modules.find(query))
+
+        if len(results) == 0:
+            return {"name" : "Module Not Found"}
+
+        return results[0]
 
 
 
@@ -59,6 +63,4 @@ records to the database - eventually
 class ModuleDBAdmin(ModuleDB):
     pass
 
-db_man = ModuleDB()
-rec = db_man.getModule({"code": "MA1023"})
-print rec['code']
+

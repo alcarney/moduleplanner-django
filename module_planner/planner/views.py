@@ -13,7 +13,7 @@ class ModuleInfoView(View):
         database = ModuleDB()
 
         # Get the record from the database
-        module_info = database.getModule({"code": "MA1023"})
+        module_info = database.getModule({"name": "Calculus"})
 
         # Load the template
         t = get_template("module.html")

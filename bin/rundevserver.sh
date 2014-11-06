@@ -57,9 +57,12 @@ cd ../
 source env/bin/activate
 
 # Descend into the module_planner and start mongodb
-echo "      => Starting MongoDB Server"
-mongod --dbpath db/ --smallfiles &
-sleep 10
+# if it isn't already running
+if [[ "$(pidof mongod)" ]]; then
+    echo "      => Starting MongoDB Server"
+    mongod --dbpath db/ --smallfiles &
+    sleep 10
+fi
 
 # If we were asked to, import fresh data
 if [[ $import_data -eq 1 ]]; then

@@ -1,0 +1,6 @@
+{
+    "name": "Introduction to Coding Theory and Data Compression",
+    "year": 3,
+    "requirements": ["MA0212", "MA0221"],
+    "credits": 20
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Fluid Dynamics",
+    "year": 3,
+    "requirements": ["MA0235", "MA2301"],
+    "credits": 10
+}

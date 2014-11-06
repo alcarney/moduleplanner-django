@@ -1,0 +1,6 @@
+{
+    "name": "Time Series Analysis and Forecasting",
+    "year": 3,
+    "requirements": ["MA2500"],
+    "credits": 10
+}

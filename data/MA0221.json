@@ -1,6 +1,6 @@
 {
     "name": "Analysis III",
     "year": 2,
-    "requirements": ["Analysis I", "Analysis II"],
+    "requirements": ["MA0123", "MA0126"],
     "credits": 10
 }

@@ -59,6 +59,8 @@ source env/bin/activate
 # Descend into the module_planner and start mongodb
 # if it isn't already running
 if [[ "$(pidof mongod)" ]]; then
+    echo "      => MongoDB already running"
+else
     echo "      => Starting MongoDB Server"
     mongod --dbpath db/ --smallfiles &
     sleep 10

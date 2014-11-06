@@ -57,7 +57,11 @@ ROOT_URLCONF = 'module_planner.urls'
 WSGI_APPLICATION = 'module_planner.wsgi.application'
 
 # Database - since we are using mongo we dont need to define anything here
-DATABASES = {}
+DATABASES = {
+        'default' : {
+            'ENGINE' : 'django.db.backends.dummy'
+            }
+        }
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/

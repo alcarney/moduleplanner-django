@@ -1,0 +1,6 @@
+{
+    "name": "Introduction to Functional and Fourier Analysis",
+    "year": 3,
+    "requirements": ["MA0212", "MA0221"],
+    "credits": 20
+}

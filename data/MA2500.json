@@ -1,0 +1,6 @@
+{
+    "name": "Foundation of Probablility and Statistics",
+    "year": 2,
+    "requirements": ["MA1500", "MA1501"],
+    "credits": 20
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Introduction to Computational Statistics",
+    "year": 2,
+    "requirements": ["MA1501", "MA2500"],
+    "credits": 10
+}

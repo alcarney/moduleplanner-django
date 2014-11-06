@@ -1,0 +1,6 @@
+{
+    "name": "Elementary Fluid Dynamics",
+    "year": 2,
+    "requirements": ["MA1300", "MA2301"],
+    "credits": 10
+}

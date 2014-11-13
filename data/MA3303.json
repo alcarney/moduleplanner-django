@@ -1,0 +1,6 @@
+{
+    "name": "Theoretical and Computational Partial Differential Equations",
+    "year": 3,
+    "requirements": ["MA0122", "MA0126"],
+    "credits": 20
+}
